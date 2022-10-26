@@ -5,6 +5,7 @@ spring:
     allow-bean-definition-overriding: true
   cloud:
     gateway:
+
       discovery:
         locator:
           # 是否开启，默认为 false 关闭

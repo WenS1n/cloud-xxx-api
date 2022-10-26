@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cloud-business/cloud-buisness-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-business/cloud-buisness-share/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-business/cloud-business-oauth2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-common/cloud-common-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-common/cloud-common-utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider/cloud-provider-share-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider/cloud-provider-share/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider/cloud-provider-user-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider/cloud-provider-user/src/main/java" charset="UTF-8" />
+  </component>
+</project>

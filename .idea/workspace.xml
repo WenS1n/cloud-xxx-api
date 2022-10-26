@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17302644-66c0-473f-84c7-5211b1fb9f28" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\maven\apache-maven-3.6.1\maven-repo" />
+        <option name="mavenHome" value="F:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Ga3zMV2KDdDspGyRG7qLR0vUmU" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider/cloud-provider-user/src/main/resources/bootstrap.yml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.16503906" />
+    <property name="project.structure.side.proportion" value="0.32201406" />
+    <property name="settings.editor.selected.configurable" value="MavenRunHelper" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.vesns.business.oauth2.config" />
+      <recent name="cn.vesns.gateway.handler" />
+      <recent name="cn.vesns.common.config.oauth" />
+      <recent name="cn.vesns.common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\cloud-xxx-api\cloud-provider\cloud-provider-share-api\src\main\java" />
+      <recent name="I:\cloud-xxx-api\cloud-business\cloud-buisness-order\src\main\java\cn\vesns\buisness\order\config" />
+      <recent name="I:\cloud-xxx-api\cloud-business\cloud-buisness-share\src\main\java\cn\vesns\buisness\share" />
+      <recent name="I:\cloud-xxx-api\cloud-business\cloud-business-oauth2\src\main\java\cn\vesns\business\oauth2\dto" />
+      <recent name="I:\cloud-xxx-api\cloud-provider\cloud-provider-user-api\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.vesns.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.vesns.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-business-oauth2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.vesns.business.oauth2.Oauth2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-buisness-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.vesns.buisness.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-buisness-share" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.vesns.buisness.share.ShareApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-share" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.vesns.provider.share.ShareProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.vesns.provider.user.UserProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.21406883" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17302644-66c0-473f-84c7-5211b1fb9f28" name="Default Changelist" comment="" />
+      <created>1666613128111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666613128111</updated>
+      <workItem from="1666613131919" duration="11353000" />
+      <workItem from="1666625420559" duration="897000" />
+      <workItem from="1666694289000" duration="7102000" />
+      <workItem from="1666784656436" duration="2826000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="193" key="#Oauth2Application_(1)" timestamp="1666712958091">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="552" y="193" key="#Oauth2Application_(1)/0.0.2048.1112@0.0.2048.1112" timestamp="1666712958091" />
+    <state x="830" y="266" key="#com.intellij.ide.util.MemberChooser" timestamp="1666624365805">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="830" y="266" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1666624365805" />
+    <state x="610" y="481" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1666622713527">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="610" y="481" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1666622713527" />
+    <state x="724" y="415" width="599" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1666616680997">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="724" y="415" width="599" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2048.1112@0.0.2048.1112" timestamp="1666616680997" />
+    <state x="760" y="139" key="Diagram.Print.Preview.Dialog" timestamp="1666695353198">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="760" y="139" key="Diagram.Print.Preview.Dialog/0.0.2048.1112@0.0.2048.1112" timestamp="1666695353198" />
+    <state x="1058" y="335" key="FileChooserDialogImpl" timestamp="1666695328623">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1058" y="335" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1666695328623" />
+    <state width="1552" height="363" key="GridCell.Tab.0.bottom" timestamp="1666787504082">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1552" height="363" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1666787504082" />
+    <state width="1552" height="363" key="GridCell.Tab.0.center" timestamp="1666787504082">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1552" height="363" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1666787504082" />
+    <state width="1552" height="363" key="GridCell.Tab.0.left" timestamp="1666787504082">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1552" height="363" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1666787504082" />
+    <state width="1552" height="363" key="GridCell.Tab.0.right" timestamp="1666787504082">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1552" height="363" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1666787504082" />
+    <state width="1552" height="363" key="GridCell.Tab.1.bottom" timestamp="1666787504082">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1552" height="363" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1666787504082" />
+    <state width="1552" height="363" key="GridCell.Tab.1.center" timestamp="1666787504082">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1552" height="363" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1666787504082" />
+    <state width="1552" height="363" key="GridCell.Tab.1.left" timestamp="1666787504082">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1552" height="363" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1666787504082" />
+    <state width="1552" height="363" key="GridCell.Tab.1.right" timestamp="1666787504082">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1552" height="363" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1666787504082" />
+    <state x="758" y="155" key="SettingsEditor" timestamp="1666695499685">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="758" y="155" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1666695499685" />
+    <state x="1069" y="277" key="SpringBootCustomization" timestamp="1666624259656">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1069" y="277" key="SpringBootCustomization/0.0.2048.1112@0.0.2048.1112" timestamp="1666624259656" />
+    <state x="595" y="168" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1666713923267">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="595" y="168" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1666713923267" />
+    <state x="781" y="259" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1666619019417">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="781" y="259" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1666619019417" />
+    <state x="633" y="261" width="782" height="590" key="find.popup" timestamp="1666786999807">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="633" y="261" width="782" height="590" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1666786999807" />
+    <state x="402" y="222" key="new project wizard" timestamp="1666621251820">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="402" y="222" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1666621251820" />
+    <state x="681" y="259" width="672" height="677" key="run.anything.popup" timestamp="1666695469400">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="681" y="259" width="672" height="677" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1666695469400" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1666710820317">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1666710820317" />
+    <state x="847" y="263" key="spring file set editor" timestamp="1666624293623">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="847" y="263" key="spring file set editor/0.0.2048.1112@0.0.2048.1112" timestamp="1666624293623" />
+  </component>
+</project>

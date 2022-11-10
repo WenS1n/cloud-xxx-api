@@ -18,4 +18,9 @@ public interface CommonConstants {
      * 失败
      */
     Integer REST_FAIL = 0;
+
+    /**
+     * 返回token信息key
+     */
+    String AUTHORIZATION = "access_token";
 }

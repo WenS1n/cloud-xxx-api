@@ -1,5 +1,6 @@
 package cn.vesns.common.config;
 
+import cn.vesns.common.utils.constant.CommonConstants;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.service.ApiKey;
 import springfox.documentation.service.AuthorizationScope;
@@ -27,7 +28,7 @@ public class SwaggerBaseConfig {
     }
 
     private static List<SecurityReference> defaultAuth() {
-        AuthorizationScope authorizationScope = new AuthorizationScope("web", "access_token");
+        AuthorizationScope authorizationScope = new AuthorizationScope("web", CommonConstants.AUTHORIZATION);
         AuthorizationScope[] authorizationScopes = new AuthorizationScope[1];
         authorizationScopes[0] = authorizationScope;
         return Collections.singletonList(new SecurityReference("Bearer", authorizationScopes));

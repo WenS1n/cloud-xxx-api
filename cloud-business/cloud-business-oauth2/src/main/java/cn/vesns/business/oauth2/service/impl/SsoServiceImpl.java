@@ -79,12 +79,12 @@ public class SsoServiceImpl implements SsoService {
     @Override
     public Result login(LoginParam loginParam) {
         Map<String, String> token = Maps.newHashMap();
-
         // 先验证账号密码
         UserDetails userDetails = userDetailsService.loadUserByUsername(loginParam.getUsername());
+        log.info("password------------>{}",userDetails.getPassword());
         if (userDetails != null && bCryptPasswordEncoder.matches(loginParam.getPassword(), userDetails.getPassword())) {
             // 获取token
-            token.put("access_token", getToken(loginParam));
+            token.put(CommonConstants.AUTHORIZATION, getToken(loginParam));
         }
         return userDetails != null && bCryptPasswordEncoder.matches(loginParam.getPassword(), userDetails.getPassword())
                 ? Result.success(HttpStatus.OK.value(), "登录成功", token)
@@ -100,7 +100,7 @@ public class SsoServiceImpl implements SsoService {
     public Result getInfo() {
         // 获取认证信息
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        System.out.println(authentication);
+        log.info("authentication==========>{}",authentication);
         LoginInfo loginInfo = new LoginInfo();
         loginInfo.setUsername(authentication.getName());
 
@@ -116,7 +116,7 @@ public class SsoServiceImpl implements SsoService {
      */
     @Override
     public Result logout(HttpServletRequest request) {
-        String token = request.getParameter("access_token");
+        String token = request.getParameter(CommonConstants.AUTHORIZATION);
         OAuth2AccessToken oAuth2AccessToken = tokenStore.readAccessToken(token);
 
         // 删除token
@@ -142,7 +142,7 @@ public class SsoServiceImpl implements SsoService {
         log.info("URL---------->{}", URL);
         String post = OkHttpUtil.post(URL, params);
 
-        return Objects.requireNonNull(JsonUtil.toMap(post)).get("access_token").toString();
+        return Objects.requireNonNull(JsonUtil.toMap(post)).get(CommonConstants.AUTHORIZATION).toString();
     }
 
 }

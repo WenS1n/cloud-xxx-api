@@ -13,8 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>cloud-business-oauth2</module>
-        <module>cloud-buisness-order</module>
-        <module>cloud-buisness-share</module>
+        <module>cloud-business-order</module>
+        <module>cloud-business-share</module>
     </modules>
 
 

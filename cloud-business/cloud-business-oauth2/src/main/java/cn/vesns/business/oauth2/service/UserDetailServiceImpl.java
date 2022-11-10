@@ -40,7 +40,6 @@ public class UserDetailServiceImpl implements UserDetailsService {
         // 用户信息
         User user = userService.findOne(username);
         log.info("user---------->{}", JsonUtil.toJson(user));
-        System.out.println(JsonUtil.toJson(user));
 
         // 判断用户名
         return user != null

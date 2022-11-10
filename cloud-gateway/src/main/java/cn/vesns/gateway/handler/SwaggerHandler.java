@@ -54,7 +54,7 @@ public class SwaggerHandler {
     }
 
     @GetMapping("/csrf")
-    public Mono<ResponseEntity> swaggerResourcesCsrf() {
+    public Mono<ResponseEntity<List<SwaggerResource>>> swaggerResourcesCsrf() {
         return Mono.just((new ResponseEntity<>(swaggerProvider.get(), HttpStatus.OK)));
     }
 }

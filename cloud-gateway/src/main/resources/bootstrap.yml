@@ -11,15 +11,15 @@ spring:
           # 是否开启，默认为 false 关闭
           enabled: true
       routes:
-        - id: cloud-buisness-share
-          uri: lb://cloud-buisness-share
+        - id: cloud-business-share
+          uri: lb://cloud-business-share
           predicates:
-            - Path=/cloud-buisness-share/**
+            - Path=/cloud-business-share/**
 
-        - id: cloud-buisness-order
-          uri: lb://cloud-buisness-user
+        - id: cloud-business-order
+          uri: lb://cloud-business-user
           predicates:
-            - Path=/cloud-buisness-user/**
+            - Path=/cloud-business-user/**
 
 
         - id: cloud-business-oauth2
@@ -31,5 +31,7 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+logging:
+  config: classpath:logback-spring.xml
 server:
   port: 9999

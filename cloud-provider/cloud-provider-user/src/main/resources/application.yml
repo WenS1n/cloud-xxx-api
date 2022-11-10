@@ -1,6 +1,6 @@
 spring:
   application:
-    name: cloud-provider-user-
+    name: cloud-provider-user
   main:
     allow-bean-definition-overriding: true
   datasource:
@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/learninglibrary?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowMultiQueries=true
     username: root
-    password: 123456
+    password:
     hikari:
       minimum-idle: 5
       idle-timeout: 600000
@@ -33,7 +33,10 @@ dubbo:
   # 负载均衡
   provider:
     loadbalance: roundrobin
-
+logging:
+  config: classpath:logback-spring.xml
 mybatis-plus:
   mapper-locations: classpath:/mapper/*.xml
   type-aliases-package: cn.vesns.provider.user.pojo.*
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

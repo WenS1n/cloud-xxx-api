@@ -176,11 +176,23 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-security</artifactId>
                 <version>${spring-boot-starter-security.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-logging</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.springframework.security.oauth.boot</groupId>
                 <artifactId>spring-security-oauth2-autoconfigure</artifactId>
                 <version>${spring-security-oauth2-autoconfigure.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-logging</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <dependency>
@@ -254,7 +266,7 @@
                                     <rules>
                                         <bannedDependencies>
                                             <excludes>
-                                                <exclude>commons-logging:*:*</exclude>
+                                                <exclgude>commons-logging:*:*</exclgude>
                                             </excludes>
                                             <searchTransitive>true</searchTransitive>
                                         </bannedDependencies>

@@ -29,8 +29,7 @@ import java.util.Objects;
 @Slf4j
 public class AuthExceptionEntryPoint implements AuthenticationEntryPoint {
     @Override
-    public void commence(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AuthenticationException a) throws IOException, ServletException {
-        Map<String, Object> map = new HashMap<>(100);
+    public void commence(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AuthenticationException a) {
         Throwable cause = a.getCause();
 
         httpServletResponse.setStatus(HttpStatus.OK.value());
@@ -40,10 +39,10 @@ public class AuthExceptionEntryPoint implements AuthenticationEntryPoint {
         try {
             if (cause instanceof InvalidTokenException) {
                 httpServletResponse.getWriter().write(Objects.requireNonNull(JsonUtil.toJson(Result.failure(Oauth2Enum.INVALID_TOKEN.getCode(),
-                        Oauth2Enum.INVALID_TOKEN.getMsg(), "AuthExceptionEntryPoint1"))));
+                        Oauth2Enum.INVALID_TOKEN.getMsg(), "Token错了"))));
             } else {
                 httpServletResponse.getWriter().write(Objects.requireNonNull(JsonUtil.toJson(Result.failure(Oauth2Enum.INVALID_TOKEN.getCode(),
-                        Oauth2Enum.INVALID_TOKEN.getMsg(), "AuthExceptionEntryPoint2"))));
+                        Oauth2Enum.INVALID_TOKEN.getMsg(), "Token不存在or各种原因"))));
             }
         } catch (IOException e) {
             e.printStackTrace();
